@@ -29,5 +29,3 @@ print(ultimos_dias_de_meses_do_ano_atual)
 
 # Isso deve solucionar os problemas do ano bissexto.
 
-
-
