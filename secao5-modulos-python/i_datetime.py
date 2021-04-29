@@ -37,3 +37,4 @@ print(dif.seconds) # exibição dos segundos da diferença de horas (2:33:00)
 print(dif.total_seconds()) # exibição dos segundos totais da diferença
 print(dif.days) # exibição da quantidade de dias da diferença
 print(d2 > d1) # comparação lógica entre as datas
+
