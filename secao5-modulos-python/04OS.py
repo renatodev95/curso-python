@@ -5,7 +5,7 @@ import os
 caminho_procura = input('Digite um caminho: ')
 termo_procura = input('Digite um termo: ')
 
-  
+
 def formata_tamanho(size):
     base = 1024
     kilo = base
@@ -62,3 +62,8 @@ for raiz, diretorios, arquivos in os.walk(caminho_procura):
 
 print()
 print(f'{contador_de_arquivos} arquivo(s) encontrado(s).')
+
+
+# Quando houver barras invertidas no caminho informado (no caso do Windows) é necessário urilizar o `r` antes da string com o caminho:
+
+# caminho_windows = r'C:\programs\anything'
