@@ -44,3 +44,6 @@ for raiz, pastas, arquivos in os.walk(caminho_origem):
                   f'{debug} {map_legenda} "{arquivo_saida}"'
 
         os.system(comando)
+
+
+#
