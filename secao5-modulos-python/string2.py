@@ -1,5 +1,3 @@
-# Criando templates HTML com o módulo string em Python
-
 # Enviando e-mails com Python
 from string import Template
 from datetime import datetime
